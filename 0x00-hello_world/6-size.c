@@ -6,7 +6,7 @@
 *
 * Return: Always 0 (success)
 */
-int main (void)
+int main(void)
 {
 printf("Size of a char: %lu 1 byte(s)\n",sizeof(char));
 printf("Size of an int: %lu 1 byte(s)\n",sizeof(int));
