@@ -1,8 +1,16 @@
-#ifndef MAIN_H
-#define MAIN_H
+#include "main.h"
+/**
+ * main - Tests function that prints if integer in positive or negative
+ *
+ * Return: 0
+ */
+int main(void)
+{
+	int i;
 
-#include <stdio.h>
 
-void positive_or_negative(int i);
+	i = 0;
+	positive_or_negative(i);
 
-#endif /* MAIN_H */
+	return (0);
+}
